@@ -56,17 +56,13 @@ function gameStart() {
     
 
     function card() {
-        let comptimer = 0
-        while (comptimer<300) {
-        comptimer = Math.random()*1200
-        }
         auflip.play()
         let ongoing = deck.pop()
         gamecard.src = `./img/Cards/${ongoing}.png`
         if (selected === ongoing) {
             clearInterval(window.interv)
             win = true
-            window.comp = setTimeout(gameEndComp,comptimer)  
+            window.comp = setTimeout(gameEndComp,1199)
         }
     }
     function gameEndPlayer() {
