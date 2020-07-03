@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+}
+html {
+    background-image: url(./img/background.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(179, 189, 199);
+    text-shadow: 2px 5px 10px black;
+    min-width: 600px;
+}
+
+img {
+    width: 160px;
+    height: 250px;
+    box-shadow: 100px;
+}
+/* HEADER */
+#div-title {
+    padding-top: 20px;
+}
+#div-title h1{
+    font-size: 50px;
+}
+#div-title h2{
+    font-size: 30px;
+}
+/* HEADER END */
+/* MAIN */
+#div-cards {
+    width: 40%;
+    margin: 20px auto;
+    height: 450px;
+    transition: 2s;
+    min-width: 450px;
+}
+#cards-gamecard {
+    position: relative;
+    top: 95px;
+}
+
+/* MAIN END */
+/* FOOTER */
+#div-instructions {
+    font-size: 20px;
+    width: 90%;
+    margin: 0 auto;
+    height: 60px;
+}
+#start{
+    font-size: 1.5em;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 0 auto;
+    margin-bottom: 30px;
+    border: 2px solid rgb(159, 182, 159);
+    background-color: grey;
+    min-width: 120px;
+}
+#instructions {
+    font-size: 1.6em;
+}
+
+/* FOOTER END*/
+
+/* RESERVE CLASSES */
+.start-hover {
+    color: white;
+    box-shadow: 3px 3px 5px black;
+    transition: 0.5s;
+}
+.toggle-tutorial {
+    background-color: rgba(65, 105, 225, 0.5);
+    box-sizing: border-box;
+    transition: 2s;
+}
+/* RESERVE CLASSES END*/
