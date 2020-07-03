@@ -51,7 +51,7 @@ function gameStart() {
         document.getElementById('div-cards').addEventListener('mousedown',gameEndPlayer)
         startButton.textContent = 'Slowly..'
         instructText.textContent = name
-        window.interv = setInterval(card,1200)
+        window.interv = setInterval(card,2000)
     }, 4000)
     
 
@@ -62,7 +62,7 @@ function gameStart() {
         if (selected === ongoing) {
             clearInterval(window.interv)
             win = true
-            window.comp = setTimeout(gameEndComp,1199)
+            window.comp = setTimeout(gameEndComp,1999)
         }
     }
     function gameEndPlayer() {
